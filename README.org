@@ -2,9 +2,10 @@
 
 It is mid-2018. The battle between [[http://ORF.at][ORF]] and [[https://en.wikipedia.org/wiki/MediathekView][MediathekView]] reached
 another dramatic climax. The unholy Austrian broadcasting basterds
-locked out the world from their glory. The overall desperate
-MediathekView users faced a satanic message with a slightly smell of
-sulfur in the air:
+locked out the world from their glory. What a disgrace. So sad.
+
+The overall desperate MediathekView users faced a satanic message with
+a slightly smell of sulfur in the air:
 
 #+BEGIN_QUOTE
 java.security.cert.CertificateException: No subject alternative DNS
