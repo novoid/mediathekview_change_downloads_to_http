@@ -61,7 +61,7 @@ to beautiful prosa like
 
 : 2018-06-15T22.21.56 ORF - ZIB 2 - Meldungsblock -- lowquality.mp4
 
-and also checks downloaded files for plausibility of completeness.
+which preserves the time-based order and also checks downloaded files for plausibility of completeness.
 
 * Local Variables                                                  :noexport:
 # Local Variables:
