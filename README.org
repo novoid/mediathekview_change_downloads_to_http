@@ -47,6 +47,16 @@ This spell was developed on the holy grounds of GNU/Linux. Less
 fortunate ground may need some modification you might consider sending
 to me.
 
+Do not wander away so fast, dear visitor:
+
+You might like to check out [[https://github.com/novoid/guess-filename.py][this handsome spell named
+guess-filename.py]] which renames worrysome names like =20180615T220000
+ORF - ZIB 2 - Meldungsblock -ORIGINAL-
+2018-06-15_2200_tl_02_ZIB-2_Meldungsblock__13979983__o__494913505b__s14317666_6__WEB03HD_22215600P_22233922P_Q4A.mp4=
+to beautiful prosa like =2018-06-15T22.21.56 ORF - ZIB 2 -
+Meldungsblock -- lowquality.mp4= (and also checks downloaded files for
+completeness).
+
 * Local Variables                                                  :noexport:
 # Local Variables:
 # mode: auto-fill
