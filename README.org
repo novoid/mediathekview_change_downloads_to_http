@@ -1,0 +1,52 @@
+* mediathekview_change_downloads_to_http.py
+
+It is mid-2018. The battle between [[http://ORF.at][ORF]] and [[https://en.wikipedia.org/wiki/MediathekView][MediathekView]] reached
+another dramatic climax. The unholy Austrian broadcasting basterds
+locked out the world from their glory. The overall desperate
+MediathekView users faced a satanic message with a slightly smell of
+sulfur in the air:
+
+#+BEGIN_QUOTE
+java.security.cert.CertificateException: No subject alternative DNS
+name matching apasfpd.apa.at found.
+#+END_QUOTE
+
+Desperation all around.
+
+As a workaround, [[https://forum.mediathekview.de/topic/1448/orf-funktioniert-via-mediathekviewweb-de-nicht-via-software-schon/12?page=1][hackers from god found workarounds]]. One had to either
+modify the spell of forthcoming (the URL) from =apasfpd.sf.apa.at= to
+=apasfpd.apa.at=. Or the intonation of the spell could be changed from
+=https://= to a less sacred =http://= one.
+
+Sorcerer's apprentices using the UI can do this by deselecting the
+demand for "Download sofort starten", switch to the Downloads tab,
+call the context menu, select "Download ändern", and modify the URL
+with their bare hands.
+
+With a big lot of chunks to be demanded, this is a very tedious work,
+not worth the time of humans with a minimum level of dignity.
+
+Behold, here comes salvation: use my magic spell which goes like this:
+
+1. In MediathekView, invoke all desired downloads and de-select the
+   "Download sofort starten" switch.
+2. Close MediathekView.
+3. Start the stem from a snake called [[https://www.python.org/downloads/][Python3]] attached to this cable
+   here:
+   : mediathekview_change_downloads_to_http.py
+4. Restart Mediathekview and look out for "Downloads" > "Alle
+   Downloads starten".
+5. All your desired forthcomings are coming forth to reach highest
+   satisfaction.
+6. World peace.
+
+This spell was developed on the holy grounds of GNU/Linux. Less
+fortunate ground may need some modification you might consider sending
+to me.
+
+* Local Variables                                                  :noexport:
+# Local Variables:
+# mode: auto-fill
+# mode: flyspell
+# eval: (ispell-change-dictionary "en_US")
+# End:
